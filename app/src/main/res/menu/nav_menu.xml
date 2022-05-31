@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+    <item android:title="Для Студентов">
+        <menu>
+            <item android:title="Расписание занятий" android:id="@+id/scheduleOfClasses" android:icon="@drawable/ic_raspis"></item>
+            <item android:title="Новости" android:id="@+id/news" android:icon="@drawable/ic_notif_xml"></item>
+        </menu>
+    </item>
+    <item android:title="Для Абитуриентов">
+        <menu>
+            <item android:title="Специальности" android:id="@+id/specialties" android:icon="@drawable/specials"></item>
+            <item android:title="О колледже" android:id="@+id/collegeInfo" android:icon="@drawable/ic_college"></item>
+        </menu>
+    </item>
+
+</menu>
